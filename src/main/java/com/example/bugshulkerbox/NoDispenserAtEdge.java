@@ -23,7 +23,7 @@ public class NoDispenserAtEdge extends JavaPlugin implements Listener {
             int y = event.getBlock().getLocation().getBlockY();
             if (y == 0 || y == 255) {
                 event.setCancelled(true);
-                event.getPlayer().kickPlayer("§c检测到利用bug行为！禁止在世界顶部或底部放置发射器");
+                event.getPlayer().kickPlayer("§c检测到利用bug行为！");
             }
         }
     }
