@@ -1,0 +1,6 @@
+name: NoDispenserAtEdge
+version: 1.0
+main: com.example.bugshulkerbox.NoDispenserAtEdge
+api-version: 1.12
+description: 防止玩家在世界顶部或底部放置发射器
+author: shaojie98
